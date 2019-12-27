@@ -1,0 +1,29 @@
+{
+  "config": {
+    "url": "http://192.168.10.205:25085/webapi_config/api/ConfigEntity/"
+  },
+  "sys": {
+    "app_name": "dma",
+    "log_level": "DEBUG",
+    "redis": "redis://127.0.0.1:6379/0",
+    "mongodb": {
+      "host": "127.0.0.1",
+      "username": "",
+      "password": ""
+    },
+    "zlsdb": {
+      "host": "10.10.8.58",
+      "port": 1521,
+      "database": "server1",
+      "username": "zlsdb",
+      "password": "71EB7DD37DEA65E364FC6A"
+    },
+    "zjdb": {
+      "host": "192.168.10.205",
+      "port": 1521,
+      "database": "server1",
+      "username": "zjdb",
+      "password": "8E3B96CE04"
+    }
+  }
+}
